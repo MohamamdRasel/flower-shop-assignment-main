@@ -18,7 +18,9 @@ body {
     cursor: pointer;
 }
 
-
+.span {
+    color:#E55473 ;
+}
 
 
 
@@ -136,11 +138,46 @@ position: bottom;
 
 }
 
+/* Deal Section */
+.hot_deal {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 150px;
+}
 
+.deal_container {
+    display: flex;
+    justify-content: space-around;
+}
 
+.left_deal {
+    margin: 230px 100px 100px 200px;
+    align-items: center;
+}
 
+.deal_title {
+    color: #272727;
+    font-size: 35px;
+    font-weight: 800;
+}
+.deal_description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
 
+.btn {
+    display: inline-flex;
+    padding: 20px 43px;    
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 32px;
+}
 
-
-
+.right_deal {
+    margin-top: 100px;
+    margin-right: 200px;
+}
 
