@@ -67,7 +67,7 @@ position: bottom;
 .features {
     margin-top: 150px;
     background: #FFF;
-    min-width: 960px;
+
 }
 
 .section_title {
@@ -87,17 +87,17 @@ position: bottom;
 }
 
 .features_container {
-    min-width: 660px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    justify-content: space-evenly;
     margin: 50px 150px 0px 150px;
 }
 
 .features_info_container  {
     border-radius: 300px 300px 0px 0px;
     margin-right: 20px;
-    height: 450px;
-    max-width: 40%;
+    height: 250px;
     display: inline-block;
 }
 .box_01 {
@@ -105,7 +105,7 @@ position: bottom;
     background-image: url(images/pngwing\ 6.png);
     background-repeat: no-repeat;
     background-position: bottom;
-    padding: 50px;
+    padding: 150px;
 }
 .box_02 {
     border-radius: 300px 300px 0px 0px;
@@ -113,7 +113,7 @@ position: bottom;
     background-image: url(images/pngwing\ 5.png);
     background-repeat: no-repeat;
     background-position: bottom;
-    padding: 50px;
+    padding: 150px;
 }
 .box_03 {
     border-radius: 300px 300px 0px 0px;
@@ -121,8 +121,8 @@ position: bottom;
     background-image: url(images/pngwing\ 7.png);
     background-repeat: no-repeat;
     background-position: bottom;
-    padding: 50px;
-    margin-right: 250px;
+    padding: 150px;
+    margin-right: 50px;
 }
 
 .features_info_container a {
@@ -130,8 +130,10 @@ position: bottom;
     text-align: center;
     font-size: 20px;
     font-weight: 700;
-    line-height: 1040px;
+    line-height: 900px;
     text-decoration-line: underline;
+    overflow: hidden;
+    
     
 }
 .features_info_container a:hover {
@@ -180,4 +182,57 @@ position: bottom;
     margin-top: 100px;
     margin-right: 200px;
 }
+
+/* Social Section */
+
+.social_container {
+    max-width: 100%;
+    margin-top: 150px;
+    background-color: #fff;
+}
+
+.social_title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.social_description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.social_images {
+    display: flex;
+    justify-content: space-around;
+    margin-left:150px ;
+    margin-right: 150px;
+}
+.social_images img {
+    width: 23%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
