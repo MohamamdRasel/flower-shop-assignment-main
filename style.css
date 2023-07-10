@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Common Styles*/
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+.primary_btn {
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #fff;
+    margin-bottom: 150px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/*NavBar Section */
+ .nav_container {
+    max-width: 1920px;
+    height: 800px;
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+ }
+
+.nav_left {
+    margin: 197px 97px 65px 240px;
+
+}
+
+.nav_left h2 {
+    color: #272727;
+    font-size: 65px;
+    font-weight: 800;
+}
+
+.nav_left p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 32px 0px 32px 0px;
+}
+
+.nav_right {
+width: 635px;
+height: 800px;
+position: bottom;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
