@@ -24,28 +24,23 @@ body {
 
 
 
-
-
-
-
-
 /*NavBar Section */
  .nav_container {
     max-width: 1920px;
-    height: 800px;
+    height: 850px;
     background: rgba(229, 84, 115, 0.10);
     display: flex;
  }
 
 .nav_left {
-    margin: 197px 97px 65px 240px;
+    margin: 150px 97px 65px 240px;
 
 }
 
 .nav_left h2 {
     color: #272727;
     font-size: 65px;
-    font-weight: 800;
+    font-weight: 850;
 }
 
 .nav_left p {
@@ -84,22 +79,24 @@ position: bottom;
     font-weight: 400;
     line-height: 30px;
     margin-top: 24px;
+    width: 500px;
+    margin-left: 30%;
 }
 
 .features_container {
     display: flex;
     align-items: center;
-    margin-left: 150px;
     justify-content: space-evenly;
-    margin: 50px 150px 0px 150px;
+    margin: 50px 250px 0px 250px;
 }
 
 .features_info_container  {
     border-radius: 300px 300px 0px 0px;
-    margin-right: 20px;
+    margin-right: 2%;
     height: 250px;
     display: inline-block;
 }
+
 .box_01 {
     background: rgba(167, 33, 98, 0.15);
     background-image: url(images/pngwing\ 6.png);
@@ -137,7 +134,8 @@ position: bottom;
     
 }
 .features_info_container a:hover {
-
+    color: #E55473;
+    
 }
 
 /* Deal Section */
@@ -216,6 +214,41 @@ position: bottom;
     width: 23%;
 }
 
+/*Best Sold Section*/
+.best_container {
+    max-width: 100%;
+    margin-top: 150px;
+    background-color: #fff;
+}
+
+.best_title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.best_description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.best_images {
+    display: flex;
+    justify-content: space-around;
+    margin-left:150px ;
+    margin-right: 150px;
+}
+.best_images img {
+    width: 40%;
+    margin-top: 5%;
+}
+
+
+
 /* Latest Deal Section */
 
 .latest_wrapper {
@@ -257,10 +290,42 @@ position: bottom;
     border: 0;
 }
 
+/* Fopoter Section */
 
+.footer_section {
+    background: #111010;
+    text-align: center;
+ 
+}
+.footer_wraper {
+    padding: 50px;
+}
+.footer_title{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 800;
+}
+.footer_title span{
+    color:#E55473;
+}
 
+.footer_description {
+    align-items: center;
+    color: #e6e3e3;
+    width: 450px;
+    margin-left: 400px;
+    margin-top: 20px;
+    line-height: 1.5rem;
+}
 
-
+.footer_copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
 
 
 
