@@ -16,6 +16,7 @@ body {
     color: #fff;
     margin-bottom: 150px;
     cursor: pointer;
+    border: 0;
 }
 
 .span {
@@ -135,7 +136,7 @@ position: bottom;
 }
 .features_info_container a:hover {
     color: #E55473;
-    
+
 }
 
 /* Deal Section */
@@ -297,7 +298,7 @@ position: bottom;
     text-align: center;
  
 }
-.footer_wraper {
+.footer_wrapper {
     padding: 50px;
 }
 .footer_title{
@@ -313,7 +314,7 @@ position: bottom;
     align-items: center;
     color: #e6e3e3;
     width: 450px;
-    margin-left: 400px;
+    margin-left: 30%;
     margin-top: 20px;
     line-height: 1.5rem;
 }
